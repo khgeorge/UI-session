@@ -5,7 +5,7 @@ import tkMessageBox
 top = Tkinter.Tk()
 
 def helloCallBack():
-   tkMessageBox.showinfo( "Hi Python", "Hi World")
+   tkMessageBox.showinfo( "Hey Python", "Hey World")
 
 B = Tkinter.Button(top, text ="Book", command = helloCallBack)
 
